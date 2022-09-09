@@ -1,0 +1,60 @@
+.box-containers{
+    width: 80%;
+    margin: 40px auto;
+    background-color: #9b59b6;
+    border-radius: 10px;
+
+     border: 1px solid #9b59b6;
+}
+
+.header{
+    width: 80%;
+    margin: 0 auto;
+}
+.header ul{
+    display: flex;
+    padding: 20px;
+    color: white;
+}
+.header ul li{
+    flex:25%
+}
+.header ul i {
+    font-size: 20px;
+}
+.item{
+    display: flex;
+    margin:  0 130px;
+    padding-bottom: 20px;
+}
+span{
+    flex:60%;
+    color :white;
+}
+button{
+    flex:24%;
+    margin-right: 50px;
+    border: none;
+    height: 25px;
+    background: #fa983a;
+    color: white;
+} 
+li.nav-list{
+    display: flex;
+    flex-direction: block;
+    flex: 25%;
+    margin-bottom: 20px;
+  }
+.nav-list p{
+    flex:50%
+}
+.nav-list button{
+    border-radius: 5px;
+}
+.nav-list button:hover{
+    cursor: pointer;
+}
+
+
+
+ 
